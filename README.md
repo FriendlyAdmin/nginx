@@ -10,7 +10,7 @@ Built for Docker Hub automatically by utilizing a GitHub hook, see `hooks/build`
 
 ## Usage
 
-To run the image you must provide an actual 'server.conf` Nginx configuration file containing `server { ... }` declarations. See `example_server.conf`. And you also must provide a public directory of your actual website or an application using a Docker volume.
+To run the image you must provide an actual `server.conf` Nginx configuration file containing `server { ... }` declarations. See `example_server.conf`. And you also must provide a public directory of your actual website or an application using a Docker volume.
 
 The easiest way to run a hidden service using this image is by using Docker Compose utility and a `docker-compose.yaml` config from [this repo](https://github.com/FriendlyAdmin/tor-hs).
 
